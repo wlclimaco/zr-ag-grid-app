@@ -5,7 +5,8 @@ app.get('/', (req, res) => {
 	res.send({
 		bye: 'thereeeee',
 		another: 'what up',
-		oneMore: 'heyyy'
+		oneMore: 'heyyy',
+		andAnother: 'should work'
 	});
 });
 
