@@ -1,5 +1,6 @@
 const express = require('express');
-require('./services/passport');
+//just sets up the google+(oAuth2.0) passport strategy
+require('./services/passport'); 
 
 const app = express();
 
