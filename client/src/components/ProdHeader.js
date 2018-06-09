@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-class DevHeader extends Component {
+class ProdHeader extends Component {
 	render() {
 		return (
 			<nav>
@@ -19,4 +19,4 @@ class DevHeader extends Component {
 // 	return auth;
 // }
 //connect to store stuff if auth is involved
-export default DevHeader;
+export default ProdHeader;
