@@ -11,21 +11,30 @@
     }
   },
   "dependencies": {
+    "ag-grid": "^17.1.1",
+    "ag-grid-enterprise": "^17.1.1",
+    "ag-grid-react": "^17.1.0",
     "axios": "^0.18.0",
-    "materialize-css": "^0.100.2",
+    "chart.js": "^2.7.2",
     "react": "^16.4.0",
+    "react-chartkick": "^0.2.0",
     "react-dom": "^16.4.0",
+    "react-dom-factories": "^1.0.2",
     "react-redux": "^5.0.7",
     "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.4",
     "react-stripe-checkout": "^2.6.3",
     "redux": "^4.0.0",
-    "redux-thunk": "^2.3.0"
+    "redux-thunk": "^2.3.0",
+    "semantic-ui-react": "^0.81.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "materialize-css": "^0.100.2"
   }
 }

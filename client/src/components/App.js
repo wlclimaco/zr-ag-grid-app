@@ -6,6 +6,8 @@ import * as actions from '../actions';
 
 import Header from './Header';
 import ProdHeader from './ProdHeader';
+//import AgGridComponent from './AgGridComponent';
+import AgGridDashboard from './AgGridDashboard/index';
 import Landing from './Landing';
 
 const Dashboard = () => {
@@ -42,10 +44,21 @@ class App extends Component {
 									<Route
 										path="/surveys/new"
 										component={SurveyNew}
+									/>,
+									<Route
+										path="/leads"
+										component={AgGridDashboard}
 									/>
 								];
 							} else {
-								return <ProdHeader />;
+								return [
+									<ProdHeader />,
+									<Route
+										exact
+										path="/"
+										component={AgGridDashboard}
+									/>
+								];
 							}
 						})()}
 					</div>

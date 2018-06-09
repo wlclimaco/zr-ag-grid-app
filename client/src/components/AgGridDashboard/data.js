@@ -1,0 +1,357 @@
+import React, { Component } from 'react';
+
+
+export default [
+	{
+		acctExec: '*Z',
+		action: 'Icon',
+		clientNameProject: 'Business A - Build a new routing mechanism',
+		projectedOrderDate: '05/23/2018',
+		estimator: 'Admin, Admin',
+		proposalDueDate: '05/29/2018',
+		status: 'Identified Need',
+		revenue: 23722.22,
+		projectType: 'POS-SRV'
+	},
+	{
+		acctExec: '1',
+		action: 'Icon',
+		clientNameProject: 'Testing Co. 2 - Testing',
+		projectedOrderDate: '05/16/2018',
+		estimator: '',
+		proposalDueDate: '',
+		status: 'Identified Need',
+		revenue:  7325,
+		projectType: ''
+	},
+	{
+		acctExec: '193',
+		action: 'Icon',
+		clientNameProject: 'Testing Co. 2 - Testing 123',
+		projectedOrderDate: '05/24/2018',
+		estimator: 'Admin, Admin',
+		proposalDueDate: '05/29/2018',
+		status: 'Identified Need',
+		revenue: 50000,
+		projectType: 'POWER & ELECTRICAL'
+	},
+	{
+		acctExec: '1B',
+		action: 'Icon',
+		clientNameProject: 'Access Point Financial - NO',
+		projectedOrderDate: '05/24/2018',
+		estimator: 'Davis, Brian',
+		proposalDueDate: '05/30/2018',
+		status: 'High Probability',
+		revenue: 500016,
+		projectType: 'NET-TEL'
+	},
+	{
+		acctExec: '*Z',
+		action: 'Icon',
+		clientNameProject: 'Business A - Build a new routing mechanism',
+		projectedOrderDate: '05/23/2018',
+		estimator: 'Admin, Admin',
+		proposalDueDate: '05/29/2018',
+		status: 'Identified Need',
+		revenue: 82470.55,
+		projectType: 'POS-SRV'
+	},
+	{
+		acctExec: '1',
+		action: 'Icon',
+		clientNameProject: 'Testing Co. 2 - Testing',
+		projectedOrderDate: '05/16/2018',
+		estimator: '',
+		proposalDueDate: '',
+		status: 'Identified Need',
+		revenue: 987435,
+		projectType: ''
+	},
+	{
+		acctExec: '193',
+		action: 'Icon',
+		clientNameProject: 'Testing Co. 2 - Testing 123',
+		projectedOrderDate: '05/24/2018',
+		estimator: 'Admin, Admin',
+		proposalDueDate: '05/29/2018',
+		status: 'Identified Need',
+		revenue: 50000,
+		projectType: 'POWER & ELECTRICAL'
+	},
+	{
+		acctExec: '1B',
+		action: 'Icon',
+		clientNameProject: 'Access Point Financial - NO',
+		projectedOrderDate: '05/24/2018',
+		estimator: 'Davis, Brian',
+		proposalDueDate: '05/30/2018',
+		status: 'High Probability',
+		revenue: 5000,
+		projectType: 'NET-TEL'
+	},
+	{
+		acctExec: '*Z',
+		action: 'Icon',
+		clientNameProject: 'Business A - Build a new routing mechanism',
+		projectedOrderDate: '05/23/2018',
+		estimator: 'Admin, Admin',
+		proposalDueDate: '05/29/2018',
+		status: 'Identified Need',
+		revenue: 0,
+		projectType: 'POS-SRV'
+	},
+	{
+		acctExec: '1',
+		action: 'Icon',
+		clientNameProject: 'Testing Co. 2 - Testing',
+		projectedOrderDate: '05/16/2018',
+		estimator: '',
+		proposalDueDate: '',
+		status: 'Identified Need',
+		revenue: 0,
+		projectType: ''
+	},
+	{
+		acctExec: '193',
+		action: 'Icon',
+		clientNameProject: 'Testing Co. 2 - Testing 123',
+		projectedOrderDate: '05/24/2018',
+		estimator: 'Admin, Admin',
+		proposalDueDate: '05/29/2018',
+		status: 'Identified Need',
+		revenue: 50000,
+		projectType: 'POWER & ELECTRICAL'
+	},
+	{
+		acctExec: '1B',
+		action: 'Icon',
+		clientNameProject: 'Access Point Financial - NO',
+		projectedOrderDate: '05/24/2018',
+		estimator: 'Davis, Brian',
+		proposalDueDate: '05/30/2018',
+		status: 'High Probability',
+		revenue: 5000,
+		projectType: 'NET-TEL'
+	},
+	{
+		acctExec: '*Z',
+		action: 'Icon',
+		clientNameProject: 'Business A - Build a new routing mechanism',
+		projectedOrderDate: '05/23/2018',
+		estimator: 'Admin, Admin',
+		proposalDueDate: '05/29/2018',
+		status: 'Identified Need',
+		revenue: 0,
+		projectType: 'POS-SRV'
+	},
+	{
+		acctExec: '1',
+		action: 'Icon',
+		clientNameProject: 'Testing Co. 2 - Testing',
+		projectedOrderDate: '05/16/2018',
+		estimator: '',
+		proposalDueDate: '',
+		status: 'Identified Need',
+		revenue: 0,
+		projectType: ''
+	},
+	{
+		acctExec: '193',
+		action: 'Icon',
+		clientNameProject: 'Testing Co. 2 - Testing 123',
+		projectedOrderDate: '05/24/2018',
+		estimator: 'Admin, Admin',
+		proposalDueDate: '05/29/2018',
+		status: 'Identified Need',
+		revenue: 50000,
+		projectType: 'POWER & ELECTRICAL'
+	},
+	{
+		acctExec: '1B',
+		action: 'Icon',
+		clientNameProject: 'Access Point Financial - NO',
+		projectedOrderDate: '05/24/2018',
+		estimator: 'Davis, Brian',
+		proposalDueDate: '05/30/2018',
+		status: 'High Probability',
+		revenue: 5000,
+		projectType: 'NET-TEL'
+    },
+    {
+		acctExec: '*Z',
+		action: 'Icon',
+		clientNameProject: 'Business A - Build a new routing mechanism',
+		projectedOrderDate: '05/23/2018',
+		estimator: 'Admin, Admin',
+		proposalDueDate: '05/29/2018',
+		status: 'Identified Need',
+		revenue: 0,
+		projectType: 'POS-SRV'
+	},
+	{
+		acctExec: '1',
+		action: 'Icon',
+		clientNameProject: 'Testing Co. 2 - Testing',
+		projectedOrderDate: '05/16/2018',
+		estimator: '',
+		proposalDueDate: '',
+		status: 'Identified Need',
+		revenue: 0,
+		projectType: ''
+	},
+	{
+		acctExec: '193',
+		action: 'Icon',
+		clientNameProject: 'Testing Co. 2 - Testing 123',
+		projectedOrderDate: '05/24/2018',
+		estimator: 'Admin, Admin',
+		proposalDueDate: '05/29/2018',
+		status: 'Identified Need',
+		revenue: 50000,
+		projectType: 'POWER & ELECTRICAL'
+	},
+	{
+		acctExec: '1B',
+		action: 'Icon',
+		clientNameProject: 'Access Point Financial - NO',
+		projectedOrderDate: '05/24/2018',
+		estimator: 'Davis, Brian',
+		proposalDueDate: '05/30/2018',
+		status: 'High Probability',
+		revenue: 5000,
+		projectType: 'NET-TEL'
+	},
+	{
+		acctExec: '*Z',
+		action: 'Icon',
+		clientNameProject: 'Business A - Build a new routing mechanism',
+		projectedOrderDate: '05/23/2018',
+		estimator: 'Admin, Admin',
+		proposalDueDate: '05/29/2018',
+		status: 'Identified Need',
+		revenue: 0,
+		projectType: 'POS-SRV'
+	},
+	{
+		acctExec: '1',
+		action: 'Icon',
+		clientNameProject: 'Testing Co. 2 - Testing',
+		projectedOrderDate: '05/16/2018',
+		estimator: '',
+		proposalDueDate: '',
+		status: 'Identified Need',
+		revenue: 0,
+		projectType: ''
+	},
+	{
+		acctExec: '193',
+		action: 'Icon',
+		clientNameProject: 'Testing Co. 2 - Testing 123',
+		projectedOrderDate: '05/24/2018',
+		estimator: 'Admin, Admin',
+		proposalDueDate: '05/29/2018',
+		status: 'Identified Need',
+		revenue: 50000,
+		projectType: 'POWER & ELECTRICAL'
+	},
+	{
+		acctExec: '1B',
+		action: 'Icon',
+		clientNameProject: 'Access Point Financial - NO',
+		projectedOrderDate: '05/24/2018',
+		estimator: 'Davis, Brian',
+		proposalDueDate: '05/30/2018',
+		status: 'High Probability',
+		revenue: 5000,
+		projectType: 'NET-TEL'
+	},
+	{
+		acctExec: '*Z',
+		action: 'Icon',
+		clientNameProject: 'Business A - Build a new routing mechanism',
+		projectedOrderDate: '05/23/2018',
+		estimator: 'Admin, Admin',
+		proposalDueDate: '05/29/2018',
+		status: 'Identified Need',
+		revenue: 12312.12,
+		projectType: 'POS-SRV'
+	},
+	{
+		acctExec: '1',
+		action: 'Icon',
+		clientNameProject: 'Testing Co. 2 - Testing',
+		projectedOrderDate: '05/16/2018',
+		estimator: '',
+		proposalDueDate: '',
+		status: 'Identified Need',
+		revenue: 4124123,
+		projectType: ''
+	},
+	{
+		acctExec: '193',
+		action: 'Icon',
+		clientNameProject: 'Testing Co. 2 - Testing 123',
+		projectedOrderDate: '05/24/2018',
+		estimator: 'Admin, Admin',
+		proposalDueDate: '05/29/2018',
+		status: 'Identified Need',
+		revenue: 500001,
+		projectType: 'POWER & ELECTRICAL'
+	},
+	{
+		acctExec: '1B',
+		action: 'Icon',
+		clientNameProject: 'Access Point Financial - NO',
+		projectedOrderDate: '05/24/2018',
+		estimator: 'Davis, Brian',
+		proposalDueDate: '05/30/2018',
+		status: 'High Probability',
+		revenue: 5000.14,
+		projectType: 'NET-TEL'
+	},
+	{
+		acctExec: '*Z',
+		action: 'Icon',
+		clientNameProject: 'Business A - Build a new routing mechanism',
+		projectedOrderDate: '05/23/2018',
+		estimator: 'Admin, Admin',
+		proposalDueDate: '05/29/2018',
+		status: 'Identified Need',
+		revenue: 31123.21,
+		projectType: 'POS-SRV'
+	},
+	{
+		acctExec: '1',
+		action: 'Icon',
+		clientNameProject: 'Testing Co. 2 - Testing',
+		projectedOrderDate: '05/16/2018',
+		estimator: '',
+		proposalDueDate: '',
+		status: 'Identified Need',
+		revenue: 22000,
+		projectType: ''
+	},
+	{
+		acctExec: '193',
+		action: 'Icon',
+		clientNameProject: 'Testing Co. 2 - Testing 123',
+		projectedOrderDate: '05/24/2018',
+		estimator: 'Admin, Admin',
+		proposalDueDate: '05/29/2018',
+		status: 'Identified Need',
+		revenue: 50000,
+		projectType: 'POWER & ELECTRICAL'
+	},
+	{
+		acctExec: '1B',
+		action: 'Icon',
+		clientNameProject: 'Access Point Financial - NO',
+		projectedOrderDate: '05/24/2018',
+		estimator: 'Davis, Brian',
+		proposalDueDate: '05/30/2018',
+		status: 'High Probability',
+		revenue: 5000,
+		projectType: 'NET-TEL'
+	}
+];
