@@ -27,15 +27,27 @@ class App extends Component {
 					<div>
 						{(() => {
 							if (process.env.NODE_ENV !== 'production') {
-								return <Header />;
+								return [
+									<Header />,
+									<Route
+										exact
+										path="/"
+										component={Landing}
+									/>,
+									<Route
+										exact
+										path="/surveys"
+										component={Dashboard}
+									/>,
+									<Route
+										path="/surveys/new"
+										component={SurveyNew}
+									/>
+								];
 							} else {
 								return <ProdHeader />;
 							}
 						})()}
-
-						<Route exact path="/" component={Landing} />
-						<Route exact path="/surveys" component={Dashboard} />
-						<Route path="/surveys/new" component={SurveyNew} />
 					</div>
 				</BrowserRouter>
 			</div>
