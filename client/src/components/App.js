@@ -5,6 +5,7 @@ import { connect } from 'react-redux';
 import * as actions from '../actions';
 
 import Header from './Header';
+import ProdHeader from './ProdHeader';
 import Landing from './Landing';
 
 const Dashboard = () => {
@@ -27,6 +28,8 @@ class App extends Component {
 						{(() => {
 							if (process.env.NODE_ENV !== 'production') {
 								return <Header />;
+							} else {
+								return <ProdHeader />;
 							}
 						})()}
 
