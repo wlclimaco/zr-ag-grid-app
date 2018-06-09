@@ -24,7 +24,12 @@ class App extends Component {
 			<div className="container">
 				<BrowserRouter>
 					<div>
-						<Header />
+						{(() => {
+							if (process.env.NODE_ENV !== 'production') {
+								return <Header />;
+							}
+						})()}
+
 						<Route exact path="/" component={Landing} />
 						<Route exact path="/surveys" component={Dashboard} />
 						<Route path="/surveys/new" component={SurveyNew} />
@@ -35,4 +40,7 @@ class App extends Component {
 	}
 }
 
-export default connect(null, actions)(App);
+export default connect(
+	null,
+	actions
+)(App);
