@@ -26,6 +26,7 @@
     "react-stripe-checkout": "^2.6.3",
     "redux": "^4.0.0",
     "redux-thunk": "^2.3.0",
+    "semantic-ui-css": "^2.3.1",
     "semantic-ui-react": "^0.81.1"
   },
   "scripts": {
@@ -34,7 +35,5 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "devDependencies": {
-    "materialize-css": "^0.100.2"
-  }
+  "devDependencies": {}
 }
