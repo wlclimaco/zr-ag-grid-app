@@ -30,7 +30,7 @@ class App extends Component {
 						{(() => {
 							if (process.env.NODE_ENV !== 'production') {
 								return [
-									<Header />,
+									<ProdHeader />,
 									<Route
 										exact
 										path="/"

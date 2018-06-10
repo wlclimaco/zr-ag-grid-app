@@ -5,8 +5,8 @@ import { Menu } from 'semantic-ui-react';
 class ProdHeader extends Component {
 	render() {
 		return (
-			<Menu>
-				<Menu.Item header>
+			<Menu fluid>
+				<Menu.Item>
 					<Link to={'/'}>AG-GRID</Link>
 				</Menu.Item>
 			</Menu>
