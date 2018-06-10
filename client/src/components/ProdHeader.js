@@ -1,17 +1,25 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import { Menu } from 'semantic-ui-react';
 
 class ProdHeader extends Component {
 	render() {
 		return (
-			<nav>
-				<div className="nav-wrapper">
-					<Link to={'/'} className="left brand-logo">
-						AG-GRID
-					</Link>
-				</div>
-			</nav>
+			<Menu>
+				<Menu.Item header>
+					<Link to={'/'}>AG-GRID</Link>
+				</Menu.Item>
+			</Menu>
 		);
+		// return (
+		// 	<nav>
+		// 		<div className="nav-wrapper">
+		// 			<Link to={'/'} className="left brand-logo">
+		// 				AG-GRID
+		// 			</Link>
+		// 		</div>
+		// 	</nav>
+		// );
 	}
 }
 
